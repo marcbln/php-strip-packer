@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="400"
+        height="563.88235294118"
+>
+
+        <!-- background rect -->
+        <rect width="100%" height="100%"
+              style="fill:#ffffff;fill-opacity:1;stroke:#888888;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+
+
+        <!-- boxes -->
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="1.5"
+                width="279.94117647059"
+                height="139.47058823529"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="282.44117647059"
+                y="1.5"
+                width="22.411764705882"
+                height="92.647058823529"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="141.97058823529"
+                width="92.647058823529"
+                height="420.41176470588"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+        
+        <!-- texts on top -->
+                                                <text x="140.97058823529"
+              y="70.735294117647"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >12x6</text>
+                                            <text x="293.14705882353"
+              y="47.323529411765"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,294.14705882353, 48.323529411765)"
+                        >1x4</text>
+                                            <text x="47.323529411765"
+              y="351.67647058824"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,48.323529411765, 352.67647058824)"
+                        >4x18</text>
+    
+
+</svg>

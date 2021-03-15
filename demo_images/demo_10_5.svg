@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="400"
+        height="201"
+>
+
+        <!-- background rect -->
+        <rect width="100%" height="100%"
+              style="fill:#ffffff;fill-opacity:1;stroke:#888888;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+
+
+        <!-- boxes -->
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="1.5"
+                width="397"
+                height="158.2"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="160.7"
+                width="118.4"
+                height="38.8"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+        
+        <!-- texts on top -->
+                                                <text x="199.5"
+              y="80.1"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >10x4</text>
+                                            <text x="60.2"
+              y="179.6"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >3x1</text>
+    
+
+</svg>

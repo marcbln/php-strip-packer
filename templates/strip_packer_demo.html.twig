@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>strip packer demo</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 10px;
+        }
+        .grid-cell {
+            background: lightblue;
+            padding: 10px;
+            text-align: center;
+        }
+        svg {
+            /*border: 1px solid gray;*/
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+    </style>
+</head>
+<body>
+
+<h1>strip packer demo</h1>
+
+
+<div class="grid-container">
+{% for result in results %}
+        <div class="grid-cell">
+            <h4>
+                container: {{ result.containerWidth }}x{{ result.containerDepth }},
+                boxes: {{ result.numBoxes }}
+            </h4>
+            {{ result.svg | raw }}
+        </div>
+{% endfor %}
+</div>
+
+
+</body>
+</html>
+

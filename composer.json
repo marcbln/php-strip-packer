@@ -1,0 +1,21 @@
+{
+    "name": "marcbln/php-strip-packer",
+    "type": "library",
+    "description": "a strip packing class",
+    "keywords": [
+        "strip packing",
+        "strip packer"
+    ],
+    "homepage": "https://github.com/marcbln/php-strip-packer",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "beberlei/assert": "^3.3",
+        "twig/twig": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mcx\\StripPacker\\": "src/"
+        }
+    }
+}

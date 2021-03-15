@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="301"
+        height="600"
+>
+
+        <!-- background rect -->
+        <rect width="100%" height="100%"
+              style="fill:#ffffff;fill-opacity:1;stroke:#888888;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+
+
+        <!-- boxes -->
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="1.5"
+                width="198.33333333333"
+                height="131.88888888889"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="200.83333333333"
+                y="1.5"
+                width="98.666666666667"
+                height="131.88888888889"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="134.38888888889"
+                width="165.11111111111"
+                height="131.88888888889"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="167.61111111111"
+                y="134.38888888889"
+                width="32.222222222222"
+                height="98.666666666667"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="200.83333333333"
+                y="134.38888888889"
+                width="32.222222222222"
+                height="65.444444444444"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="267.27777777778"
+                width="98.666666666667"
+                height="331.22222222222"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="101.16666666667"
+                y="267.27777777778"
+                width="98.666666666667"
+                height="264.77777777778"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="200.83333333333"
+                y="267.27777777778"
+                width="32.222222222222"
+                height="264.77777777778"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+        
+        <!-- texts on top -->
+                                                <text x="100.16666666667"
+              y="66.944444444444"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >6x4</text>
+                                            <text x="249.66666666667"
+              y="66.944444444444"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,250.66666666667, 67.944444444444)"
+                        >3x4</text>
+                                            <text x="83.555555555556"
+              y="199.83333333333"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >5x4</text>
+                                            <text x="183.22222222222"
+              y="183.22222222222"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,184.22222222222, 184.22222222222)"
+                        >1x3</text>
+                                            <text x="216.44444444444"
+              y="166.61111111111"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,217.44444444444, 167.61111111111)"
+                        >1x2</text>
+                                            <text x="50.333333333333"
+              y="432.38888888889"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,51.333333333333, 433.38888888889)"
+                        >3x10</text>
+                                            <text x="150"
+              y="399.16666666667"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,151, 400.16666666667)"
+                        >3x8</text>
+                                            <text x="216.44444444444"
+              y="399.16666666667"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,217.44444444444, 400.16666666667)"
+                        >1x8</text>
+    
+
+</svg>

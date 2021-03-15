@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="400"
+        height="236.11764705882"
+>
+
+        <!-- background rect -->
+        <rect width="100%" height="100%"
+              style="fill:#ffffff;fill-opacity:1;stroke:#888888;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+
+
+        <!-- boxes -->
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="1.5"
+                width="139.47058823529"
+                height="139.47058823529"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="141.97058823529"
+                y="1.5"
+                width="209.70588235294"
+                height="69.235294117647"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="141.97058823529"
+                width="397"
+                height="92.647058823529"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+        
+        <!-- texts on top -->
+                                                <text x="70.735294117647"
+              y="70.735294117647"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >6x6</text>
+                                            <text x="246.32352941176"
+              y="35.617647058824"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >9x3</text>
+                                            <text x="199.5"
+              y="187.79411764706"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >17x4</text>
+    
+
+</svg>

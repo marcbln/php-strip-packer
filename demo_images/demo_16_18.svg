@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="400"
+        height="449.75"
+>
+
+        <!-- background rect -->
+        <rect width="100%" height="100%"
+              style="fill:#ffffff;fill-opacity:1;stroke:#888888;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+
+
+        <!-- boxes -->
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="1.5"
+                width="247.75"
+                height="173.125"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="175.625"
+                width="222.875"
+                height="148.25"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="324.875"
+                width="347.25"
+                height="123.375"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+        
+        <!-- texts on top -->
+                                                <text x="124.875"
+              y="87.5625"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >10x7</text>
+                                            <text x="112.4375"
+              y="249.25"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >9x6</text>
+                                            <text x="174.625"
+              y="386.0625"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >14x5</text>
+    
+
+</svg>

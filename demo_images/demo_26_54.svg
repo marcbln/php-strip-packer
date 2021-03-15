@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="289.92592592593"
+        height="600"
+>
+
+        <!-- background rect -->
+        <rect width="100%" height="100%"
+              style="fill:#ffffff;fill-opacity:1;stroke:#888888;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+
+
+        <!-- boxes -->
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="1.5"
+                width="286.92592592593"
+                height="142.96296296296"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="145.46296296296"
+                width="176.18518518519"
+                height="131.88888888889"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="178.68518518519"
+                y="145.46296296296"
+                width="98.666666666667"
+                height="131.88888888889"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="278.35185185185"
+                y="145.46296296296"
+                width="10.074074074074"
+                height="76.518518518519"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="278.35185185185"
+                width="242.62962962963"
+                height="109.74074074074"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="389.09259259259"
+                width="120.81481481481"
+                height="98.666666666667"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="123.31481481481"
+                y="389.09259259259"
+                width="165.11111111111"
+                height="21.148148148148"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="488.75925925926"
+                width="231.55555555556"
+                height="54.37037037037"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                                        <rect
+                rx="0"
+                ry="0"
+                x="1.5"
+                y="544.12962962963"
+                width="187.25925925926"
+                height="54.37037037037"
+                style="fill:lightgreen;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+        
+        <!-- texts on top -->
+                                                <text x="144.46296296296"
+              y="72.481481481481"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >26x13</text>
+                                            <text x="89.092592592593"
+              y="210.90740740741"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >16x12</text>
+                                            <text x="227.51851851852"
+              y="210.90740740741"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,228.51851851852, 211.90740740741)"
+                        >9x12</text>
+                                            <text x="282.88888888889"
+              y="183.22222222222"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                                    transform="rotate(90,283.88888888889, 184.22222222222)"
+                        >1x7</text>
+                                            <text x="122.31481481481"
+              y="332.72222222222"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >22x10</text>
+                                            <text x="61.407407407407"
+              y="437.92592592593"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >11x9</text>
+                                            <text x="205.37037037037"
+              y="399.16666666667"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >15x2</text>
+                                            <text x="116.77777777778"
+              y="515.44444444444"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >21x5</text>
+                                            <text x="94.62962962963"
+              y="570.81481481481"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              fill="#000000"
+                        >17x5</text>
+    
+
+</svg>
