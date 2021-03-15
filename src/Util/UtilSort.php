@@ -32,11 +32,11 @@ class UtilSort
      * 03/2021 created
      *
      * @param array $documents
-     * @param $sortBy, eg: ['width' => SORT_DESC, 'depth' => SORT_DESC]
+     * @param array $sortBy, eg: ['width' => SORT_DESC, 'depth' => SORT_DESC]
      * @return array the array sorted
      * @throws \Exception
      */
-    public static function multisortDocuments(array &$documents, $sortBy)
+    public static function multisortDocuments(array &$documents, array $sortBy)
     {
         $funArgs = [];
         foreach ($sortBy as $columnName => $sortOrder) {
