@@ -5,12 +5,33 @@
         height="{{ imgH }}"
 >
 
-        <!-- background rect -->
+        <!-- BACKGROUND RECT -->
         <rect width="100%" height="100%"
               style="fill:{{ containerFillColor }};fill-opacity:1;stroke:{{ containerStrokeColor }};stroke-width:{{ containerStrokeWidth }};stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
 
+        <!-- GRID LINES -->
+        {% if gridLinesWidth %}
+                <!-- hor. grid lines -->
+                {% for y in range(1, containerDepth - 1) %}
+                        <line x1="{{ containerStrokeWidth/2 }}"
+                              x2="{{ imgW - containerStrokeWidth/2}}"
+                              y1="{{ y * scale + containerStrokeWidth/2}}"
+                              y2="{{ y * scale + containerStrokeWidth/2 }}"
+                              style="stroke:{{ gridLinesColor }};stroke-width:{{ gridLinesWidth }}" />
+                {% endfor %}
+                {#                <!-- vert. grid lines -->#}
+                {% for x in range(1, containerWidth - 1) %}
+                        <line x1="{{ x * scale + containerStrokeWidth/2 }}"
+                              x2="{{ x * scale + containerStrokeWidth/2 }}"
+                              y1="{{ containerStrokeWidth/2 }}"
+                              y2="{{ imgH - containerStrokeWidth/2 }}"
+                              style="stroke:{{ gridLinesColor }};stroke-width:{{ gridLinesWidth }}" />
+                {% endfor %}
+        {% endif %}
 
-        <!-- boxes -->
+
+
+        <!-- BOXES -->
         {% for packedBox in packedBoxes %}
             {% set boxX = containerStrokeWidth/2 + packedBox.x * scale + strokeWidth/2 %}
             {% set boxY = containerStrokeWidth/2 + packedBox.y * scale + strokeWidth/2 %}
@@ -21,10 +42,13 @@
                 y="{{ boxY }}"
                 width="{{ packedBox.box.width * scale - strokeWidth }}"
                 height="{{ packedBox.box.depth * scale - strokeWidth }}"
-                style="fill:{{ fillColor }};fill-opacity:1;stroke:{{ strokeColor }};stroke-width:{{ strokeWidth }};stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1.0"/>
+                style="fill:{{ fillColor }};fill-opacity:0.7;stroke:{{ strokeColor }};stroke-width:{{ strokeWidth }};stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.7"/>
         {% endfor %}
 
-        <!-- texts on top -->
+
+
+
+        <!-- TEXTS ON TOP -->
         {% for packedBox in packedBoxes %}
                 {% set boxX = containerStrokeWidth/2 + packedBox.x * scale + strokeWidth/2 %}
                 {% set boxY = containerStrokeWidth/2 + packedBox.y * scale + strokeWidth/2 %}
@@ -38,6 +62,7 @@
                 {% endif %}
         >{{ packedBox.box.footprintAsString }}</text>
     {% endfor %}
+
 
 
 </svg>

@@ -7,6 +7,9 @@ use Assert\Assertion;
 
 class Box
 {
+    static int $counter = 0;
+
+    private $id;
     private int $width;
     private int $depth;
     private int $height;
@@ -17,6 +20,7 @@ class Box
      */
     private function __construct()
     {
+        $this->id = self::$counter++;
     }
 
 
@@ -254,6 +258,12 @@ class Box
     {
         return min($this->width, $this->depth, $this->height);
     }
+
+    public function getLongestFootprintEdge(): int
+    {
+        return max($this->width, $this->depth);
+    }
+
 
     public function getLengthByName(string $name): int
     {

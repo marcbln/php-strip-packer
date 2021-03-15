@@ -57,7 +57,7 @@ class StripPacker
     public function pack(int $width, array $boxes, array $sortBy)
     {
         $this->remainingBoxes = $boxes; // remaining = deepcopy(rectangles)
-        Assertion::allInArray(array_keys($sortBy), ['width', 'depth', 'footprintArea', 'footprintCircumference'], 'The algorithm only supports sorting by width, depth, footprintArea, footprintCircumference');
+        Assertion::allInArray(array_keys($sortBy), ['width', 'depth', 'footprintArea', 'footprintCircumference', 'longestFootprintEdge'], 'The algorithm only supports sorting by width, depth, footprintArea, footprintCircumference, longestFootprintEdge');
 
         $this->packedBoxes = [];  //    result = [None] * len(rectangles)
 

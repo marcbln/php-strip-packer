@@ -25,6 +25,9 @@ class ResultsRenderer
     const CONTAINER_STROKE_WIDTH = 2;
     const CONTAINER_STROKE_COLOR = '#888888';
     const CONTAINER_FILL_COLOR = '#ffffff';
+    // -- grid lines
+    const GRID_LINES_WIDTH = 0.2; // 0 or false for no grid
+    const GRID_LINES_COLOR = '#ff7700';
 
 
     /**
@@ -64,9 +67,11 @@ class ResultsRenderer
         [$containerWidthScaled, $containerHeightScaled, $scale] = self::_fit($containerWidth, $containerDepth, $maxW - self::CONTAINER_STROKE_WIDTH, $maxH - self::CONTAINER_STROKE_WIDTH);
 
         $viewVars = [
-            'packedBoxes'        => $packedBoxes,
+            'packedBoxes'          => $packedBoxes,
             'imgW'                 => $containerWidthScaled + self::CONTAINER_STROKE_WIDTH,
             'imgH'                 => $containerHeightScaled + self::CONTAINER_STROKE_WIDTH,
+            'containerWidth'       => $containerWidth,
+            'containerDepth'       => $containerDepth,
             'scale'                => $scale,
             // -- boxes
             'cornerRoundness'      => self::CORNER_ROUNDNESS,
@@ -78,6 +83,9 @@ class ResultsRenderer
             'containerStrokeWidth' => self::CONTAINER_STROKE_WIDTH,
             'containerFillColor'   => self::CONTAINER_FILL_COLOR,
             'containerStrokeColor' => self::CONTAINER_STROKE_COLOR,
+            // -- grid lines
+            'gridLinesWidth'       => self::GRID_LINES_WIDTH,
+            'gridLinesColor'       => self::GRID_LINES_COLOR,
         ];
 
         return UtilTwig::renderTemplate(__DIR__ . '/../../templates/ResultsRenderer_renderLevel2d.svg.twig', $viewVars);

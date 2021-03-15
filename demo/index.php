@@ -54,6 +54,39 @@ $tests = [
         ],
         'containerWidth' => 30,
     ],
+    [
+        'boxes'          => [
+            Box::createFromString('19x11x0'),
+            Box::createFromString('7x5x0'),
+            Box::createFromString('7x1x0'),
+            Box::createFromString('21x2x0'),
+            Box::createFromString('1x27x0'),
+        ],
+        'containerWidth' => 26,
+    ],
+    [
+        'boxes'          => [
+            Box::createFromString('4x33x0'),
+            Box::createFromString('24x5x0'),
+            Box::createFromString('4x22x0'),
+            Box::createFromString('8x13x0'),
+            Box::createFromString('3x10x0'),
+            Box::createFromString('6x32x0'),
+        ],
+        'containerWidth' => 28,
+    ],
+    [
+        'boxes'          => [
+            Box::createFromString('16x39x0'),
+            Box::createFromString('5x37x0'),
+            Box::createFromString('12x3x0'),
+            Box::createFromString('10x28x0'),
+            Box::createFromString('2x11x0'),
+            Box::createFromString('13x7x0'),
+        ],
+        'containerWidth' => 33,
+    ],
+
 ];
 
 // ---- random tests
@@ -67,10 +100,11 @@ foreach (range(2, 33, 1) as $containerWidth) {
 $packer = new StripPacker();
 
 $sortBy = [
+    'longestFootprintEdge'   => SORT_DESC,
+    'footprintCircumference' => SORT_DESC,
     'width'                  => SORT_DESC,
     'depth'                  => SORT_DESC,
     'footprintArea'          => SORT_DESC,
-    'footprintCircumference' => SORT_DESC,
 ];
 
 $results = [];
