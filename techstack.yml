@@ -1,0 +1,39 @@
+repo_name: marcbln/php-strip-packer
+report_id: ef3921eadb1f1eed4b912540e201598e
+repo_type: Public
+timestamp: '2023-11-09T18:06:07+00:00'
+requested_by: whyoo-os
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source: Repo Metadata
+- name: Twig
+  description: A flexible, fast, and secure template engine
+  website_url: https://twig.symfony.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png
+  detection_source: composer.json
+  last_updated_by: Marc Christenfeldt
+  last_updated_on: 2021-03-15 19:27:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
