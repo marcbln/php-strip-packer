@@ -1,7 +1,8 @@
 repo_name: marcbln/php-strip-packer
 report_id: ef3921eadb1f1eed4b912540e201598e
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T18:06:07+00:00'
+timestamp: '2024-01-04T15:10:56+00:00'
 requested_by: whyoo-os
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/marcbln/php-strip-packer
   detection_source: Repo Metadata
 - name: Twig
   description: A flexible, fast, and secure template engine
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png
+  detection_source_url: https://github.com/marcbln/php-strip-packer/blob/main/composer.json
   detection_source: composer.json
   last_updated_by: Marc Christenfeldt
   last_updated_on: 2021-03-15 19:27:49.000000000 Z
@@ -36,4 +39,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/marcbln/php-strip-packer
   detection_source: Repo Metadata
